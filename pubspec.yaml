@@ -1,0 +1,17 @@
+name: escpos
+description: A web server built using the shelf package.
+version: 0.0.1
+#homepage: https://www.example.com
+#author: benjamin <email@example.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+  args: ^0.13.7
+  shelf: ^0.6.0
+  charcode: any
+
+dev_dependencies:
+  test: ^0.12.28
+  path: ^1.5.1
